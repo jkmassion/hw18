@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link href="../css/styles.css" rel="stylesheet">
-
+    <!--Meta tags-->
     <title>Julia Massion</title>
+    <!--CSS--> 
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
  <!---PROJECTS SECTION-->
@@ -11,10 +13,10 @@
 
         <div class=“section-header”>
               <h3 class=“section-title”>Projects</h3>
-        <div>
+        </div>
         
-        <div class=“featured-project”>
-              <img class=“featured-image”>
+        <div class=“featured-project”> <!--FLEX CONTAINER-->
+              <img class=“featured-image” src="../images/CCAhero.png" height="200px">
                <div class=“featured-body”>
                   <h4 class=“featured-title”>Responsive Government Site Redesign </h4>
                   <p class=“featured-text”>Improved the confusing navigation and illogical information architecture of the Canada Council of Art’s site by redesigning the navigation bar and creating a site map.</p>
@@ -23,20 +25,20 @@
         </div>
                 
         
-        <div class=“projects-card-container”>
+        <div class=“projects-card-container”> <!--FLEX CONTAINER-->
         
           <div class=“project-card” id=“sip”>
-             <img class=“project-card-image”>
+             <img class=“project-card-image” src="../images/sipheroimage.png" height="100px" width="140px">
              <div class=“project-card-body”>
                  <h5 class=“project-card-title”> 
                        <a href="#">Sip: for Aspiring Wine Hobbyists</a>
-                </h5>
+                 </h5>
                  <p class=“project-card-text”>Sip meets those entering wine culture at their level of experience and knowledge by suggesting food pairings, easily keeping records of what wines they have tried using a barcode scanner, and teaching them wine terms.</p>
                  <a href=“#” class=“more-button”>See More</a>
              </div>
           </div>
 
-          <div class=“project-card” id=“proect2”>
+          <div class=“project-card” id=“project2”>
             <img class=“project-card-image” src="#">
             <div class=“project-card-body”>
                 <h5 class=“project-card-title”> 
@@ -48,38 +50,34 @@
          </div>
 
          <div class=“project-card” id="project3">
-            <img class=“project-card-image” src="#">
+            <img class=“project-card-image” src="../images/bundlehero.png" height="100px">
             <div class=“project-card-body”>
                 <h5 class=“project-card-title”> 
-                      <a href="#"></a>
+                      <a href="#">Bundle: Travel App</a>
                </h5>
-                <p class=“project-card-text”></p>
+                <p class=“project-card-text”>Placeholder Text</p>
                 <a href=“#” class=“more-button”></a>
            </div>
          </div>
-
     
         </div>
     </section>
     <!--End projects section-->
 
-    <!-- Skills section-->
+    <!-- Skills section: FLEXBOX-->
     <section class=“skills”> 
         <div class=“section-header”>
             <h3 class=“section-title>Skills</h3>
         </div>
 
-        <div class=“skills-card-container”>
-            <div class=“skillsCard”>
+        <div class=“skills-card-container”> <!--parent flex container-->
+            <div class=“skillsCard”> 
                 <img class=“skill-image” src="#">
                 <div class=“skills-card-body” id=“skill-research”>
                     <h5 class=“skills-card-title”>User Research </h5>
                      <p class=“skills-card-text”>My approach to user research is to balance qualitative & quantitative methods by empathizing with the user </p>
                 </div>
             </div>
-        </div>
-
-        <div class=“skills-card-container”>
             <div class=“skillsCard”>
                 <img class=“skill-image” src="#">
                 <div class=“skills-card-body” id=“skill-empathy>
@@ -87,9 +85,6 @@
                      <p class=“skills-card-text”>The key is listening & observing from a neutral perspective throughout the design process </p>
                 </div>
             </div>
-        </div>
-
-        <div class=“skills-card-container”>
             <div class=“skillsCard”>
                 <img class=“skill-image” src="#">
                 <div class=“skills-card-body” id=“skill-info>
@@ -97,9 +92,6 @@
                      <p class=“skills-card-text”>Using techniques like card sorting & site maps to arrange information logically is equally or more crucial than aesthetics </p>
                 </div>
             </div>
-        </div>
-
-        <div class=“skills-card-container”>
             <div class=“skillsCard”>
                 <img class=“skill-image” src="#">
                 <div class=“skills-card-body” id=“skill-prototyping>
