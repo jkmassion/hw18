@@ -91,7 +91,8 @@ h5{
 .project-card-container{
     display: grid;
     grid-template-areas: 
-    'card1 card2 card3 card 4';
+   "card1 card2"
+   "card3 card4";
     grid-template-columns: 'max-content max-content';
 }
 
@@ -106,9 +107,6 @@ h5{
 
 /* Skills Section */
 
-.skills {
-    display:flex;
-}
 
 .skills-card-container {
     display: flex;
@@ -126,3 +124,22 @@ h5{
 
 
 
+@media only screen and (max-width:600){
+    .skills-card-container{
+        flex-direction:column;
+    }
+
+    .skillsCard {
+        width: 100%;
+        margin: 10px 20px 10px 20px;
+    }
+    
+    .project-card-container{
+        grid-template-areas: 
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    }
+
+}
