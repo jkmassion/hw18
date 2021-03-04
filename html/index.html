@@ -4,32 +4,38 @@
     <!--Meta tags-->
     <title>Julia Massion</title>
     <!--CSS--> 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" >
     
 </head>
 <body>
  <!---PROJECTS SECTION-->
-    <section class=“projects”>
+    <section class="projects">
 
-        <div class=“section-header”>
-              <h3 class=“section-title”>Projects</h3>
+        <div class="section-header">
+              <h3 class="section-title">Projects</h3>
         </div>
         
-        <div class=“featured-project”> <!--FLEX CONTAINER-->
-              <img class=“featured-image” src="../images/CCAhero.png" height="200px">
-               <div class=“featured-body”>
-                  <h4 class=“featured-title”>Responsive Government Site Redesign </h4>
-                  <p class=“featured-text”>Improved the confusing navigation and illogical information architecture of the Canada Council of Art’s site by redesigning the navigation bar and creating a site map.</p>
-                   <a href=“#” class=“featured-button” role=“button”>See More</a>
+        <div class="featured-project"> <!--FLEX CONTAINER-->
+              <img class="featured-image" src="../images/CCAhero.png">
+               <div class="featured-body">
+                  <h4 class="featured-title">Responsive Government Site Redesign </h4>
+                  <p class="featured-text">Improved the confusing navigation and illogical information architecture of the Canada Council of Art’s site by redesigning the navigation bar and creating a site map.</p>
+                  <a href="#" class="featured-button" role="button">See More</a>
                </div>
         </div>
-                
+
+        <div class="overlay-image"><a href="#">
+            <img class="image" src="../images/CCAhero.png" alt="Alt text" />
+            <div class="text">Responsive Government Site Redesign</div>
+          </a></div>
+
+        <div class="projects-card-container"> <!--FLEX CONTAINER-->
         
-        <div class=“projects-card-container”> <!--FLEX CONTAINER-->
-        
-          <div class=“project-card” id=“sip”>
-             <img class=“project-card-image” src="../images/sipheroimage.png" height="100px" width="140px">
-             <div class=“project-card-body”>
+          <div class="project-card" id="sip">
+             <img class="project-card-image" src="../images/sipheroimage.png" height="100px" width="140px">
+             <div class="project-card-body">
                  <h5 class=“project-card-title”> 
                        <a href="#">Sip: for Aspiring Wine Hobbyists</a>
                  </h5>
@@ -38,25 +44,25 @@
              </div>
           </div>
 
-          <div class=“project-card” id=“project2”>
-            <img class=“project-card-image” src="#">
-            <div class=“project-card-body”>
-                <h5 class=“project-card-title”> 
+          <div class="project-card" id="project2">
+            <img class="project-card-image" src="#">
+            <div class="project-card-body">
+                <h5 class="project-card-title"> 
                       <a href="#">Techgirls.ca Site Redesign</a>
                </h5>
-                <p class=“project-card-text”>Placeholder Text</p>
-                <a href=“#” class=“more-button”>See More</a>
+                <p class="project-card-text">Placeholder Text</p>
+                <a href="#" class="more-button">See More</a>
            </div>
          </div>
 
-         <div class=“project-card” id="project3">
-            <img class=“project-card-image” src="../images/bundlehero.png" height="100px">
-            <div class=“project-card-body”>
-                <h5 class=“project-card-title”> 
+         <div class="project-card" id="project3">
+            <img class="project-card-image" src="../images/bundlehero.png" height="100px">
+            <div class="project-card-body">
+                <h5 class="project-card-title"> 
                       <a href="#">Bundle: Travel App</a>
                </h5>
-                <p class=“project-card-text”>Placeholder Text</p>
-                <a href=“#” class=“more-button”></a>
+                <p class="project-card-text">Placeholder Text</p>
+                <a href="#" class="more-button"></a>
            </div>
          </div>
     
@@ -65,38 +71,36 @@
     <!--End projects section-->
 
     <!-- Skills section: FLEXBOX-->
-    <section class=“skills”> 
-        <div class=“section-header”>
-            <h3 class=“section-title>Skills</h3>
-        </div>
+    <section class="skills"> 
+            <h3 class="section-title">Skills</h3>
 
-        <div class=“skills-card-container”> <!--parent flex container-->
-            <div class=“skillsCard”> 
-                <img class=“skill-image” src="#">
-                <div class=“skills-card-body” id=“skill-research”>
-                    <h5 class=“skills-card-title”>User Research </h5>
-                     <p class=“skills-card-text”>My approach to user research is to balance qualitative & quantitative methods by empathizing with the user </p>
+        <div class="skills-card-container"> <!--parent flex container-->
+            <div class="skillsCard"> 
+                <img class="skill-image" src="#">
+                <div class="skills-card-body" id="skill-research">
+                    <h5 class="skills-card-title">User Research </h5>
+                     <p class="skills-card-text">My approach to user research is to balance qualitative & quantitative methods by empathizing with the user </p>
                 </div>
             </div>
-            <div class=“skillsCard”>
-                <img class=“skill-image” src="#">
-                <div class=“skills-card-body” id=“skill-empathy">
-                    <h5 class=“skills-card-title”>User Empathy </h5>
-                     <p class=“skills-card-text”>The key is listening & observing from a neutral perspective throughout the design process </p>
+            <div class="skillsCard">
+                <img class="skill-image" src="#">
+                <div class="skills-card-body" id="skill-empathy">
+                    <h5 class="skills-card-title">User Empathy </h5>
+                     <p class="skills-card-text">The key is listening & observing from a neutral perspective throughout the design process </p>
                 </div>
             </div>
-            <div class=“skillsCard”>
-                <img class=“skill-image” src="#">
-                <div class=“skills-card-body” id=“skill-info">
-                    <h5 class=“skills-card-title”>Information Architecture </h5>
-                     <p class=“skills-card-text”>Using techniques like card sorting & site maps to arrange information logically is equally or more crucial than aesthetics </p>
+            <div class="skillsCard">
+                <img class="skill-image" src="#">
+                <div class="skills-card-body" id="skill-info">
+                    <h5 class="skills-card-title">Information Architecture </h5>
+                     <p class="skills-card-text">Using techniques like card sorting & site maps to arrange information logically is equally or more crucial than aesthetics </p>
                 </div>
             </div>
-            <div class=“skillsCard”>
-                <img class=“skill-image” src="#">
-                <div class=“skills-card-body” id=“skill-prototyping">
-                    <h5 class=“skills-card-title”>Prototyping</h5>
-                     <p class=“skills-card-text”>While I enjoy the more glamorous work of visual designing, bringing a team’s design to life is exciting</p>
+            <div class="skillsCard">
+                <img class="skill-image" src="#">
+                <div class="skills-card-body" id="skill-prototyping">
+                    <h5 class="skills-card-title">Prototyping</h5>
+                     <p class="skills-card-text">While I enjoy the more glamorous work of visual designing, bringing a team’s design to life is exciting</p>
                 </div>
             </div>
         </div>

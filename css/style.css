@@ -1,0 +1,112 @@
+
+/* Main container */
+.overlay-image {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Original image */
+  .overlay-image .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Original text overlay */
+  .overlay-image .text {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+*{
+    font-family: Poppins;
+}
+
+
+/*General*/
+
+h1, h2, h3, h4, h5, h6, p {
+ color: #00366c;
+}
+
+h3 {
+    font-size: 50pt;
+    opacity: 50%;
+    color: #00366c;
+    
+}
+
+h5{
+
+}
+
+/* Projects Section */
+
+.featured-project{
+    position: relative;
+    width:100%;
+}
+
+.featured-image{
+    z-index:-4;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.featured-body{
+    z-index: 1;
+    color: white;
+}
+
+.featured-title h4 {
+    font-size: 35pt;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.featured-text p {
+    font-size: 20pt;
+    font-weight:600;
+}
+
+.featured-button{
+    border: 1px solid white;
+}
+
+.project-card{
+    margin: 10px 20px 10px 20px;
+    border: 1px solid #00366c;
+}
+
+/* Skills Section */
+
+.skills {
+    display:flex;
+}
+
+.skills-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.skillsCard {
+    width: 25%;
+    margin: 10px 20px 10px 20px;
+}
+
+
+
