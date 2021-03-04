@@ -88,6 +88,22 @@ h5{
     border: 1px solid #00366c;
 }
 
+.project-card-container{
+    display: grid;
+    grid-template-areas: 
+    'card1 card2 card3 card 4';
+    grid-template-columns: 'max-content max-content';
+}
+
+.project1{ grid-area: card1;}
+
+.project2{grid-area: card2;}
+
+.project3{grid-area: card3;}
+
+.project4{grid-area: card4;}
+
+
 /* Skills Section */
 
 .skills {
